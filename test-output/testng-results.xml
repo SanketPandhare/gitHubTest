@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[This is amazon Login]]>
+    </line>
+    <line>
+      <![CDATA[This is Flipkart Login]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-09T20:57:13 IST" name="Default suite" finished-at="2022-06-09T20:57:39 IST" duration-ms="25799">
+    <groups>
+    </groups>
+    <test started-at="2022-06-09T20:57:13 IST" name="Default test" finished-at="2022-06-09T20:57:39 IST" duration-ms="25799">
+      <class name="testNG.LaunchWebsite">
+        <test-method signature="AmazonLogin()[pri:0, instance:testNG.LaunchWebsite@2e005c4b]" started-at="2022-06-09T20:57:13 IST" name="AmazonLogin" finished-at="2022-06-09T20:57:17 IST" duration-ms="4369" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is amazon Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AmazonLogin -->
+        <test-method signature="FlipkartLogin()[pri:0, instance:testNG.LaunchWebsite@2e005c4b]" started-at="2022-06-09T20:57:17 IST" name="FlipkartLogin" finished-at="2022-06-09T20:57:35 IST" duration-ms="18313" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is Flipkart Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FlipkartLogin -->
+        <test-method signature="KiteLogin()[pri:0, instance:testNG.LaunchWebsite@2e005c4b]" started-at="2022-06-09T20:57:35 IST" name="KiteLogin" finished-at="2022-06-09T20:57:39 IST" duration-ms="3065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KiteLogin -->
+      </class> <!-- testNG.LaunchWebsite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
